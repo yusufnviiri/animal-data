@@ -105,4 +105,6 @@ SELECT COUNT(*) FROM visits JOIN animals ON visits.animal_id = animals.id JOIN v
 SELECT species.name,COUNT(species.name) FROM visits JOIN animals ON visits.animal_id = animals.id JOIN vets ON visits.vet_id = vets.id JOIN species ON animals.species_id = species.id WHERE vets.name = 'Maisy Smith' GROUP BY species.name ORDER BY COUNT(species.name)DESC LIMIT 1;
 
 
-
+-- optimise 
+vet_clinic=# CREATE INDEX email_asc ON owners (email ASC);
+CREATE INDEX
