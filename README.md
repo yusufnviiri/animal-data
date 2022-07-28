@@ -1,5 +1,7 @@
 ## Animals
 This project is about an animal database.This is a pure relational sql database created with Postgres SQl 
+Create a database from a [diagram](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/images/clinic_diagram.png) 
+ 
 
 ## Getting Started
 
